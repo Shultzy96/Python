@@ -4,25 +4,25 @@ Created on Thu Dec 12 19:11:53 2019 @author: Shultzy
 """
 #|--------------- Imports ---------------|
 import sys
-sys.path.append("C:\Users\shult\Documents\PythonCode")
-import ImportEnvironment as Env
+sys.path.append("C:\\Users\shult\Documents\PythonCode")
+import ShultzyTools as ST
 #|--------------- Variables ---------------|
 
 #|--------------- Functions ---------------|
 
 def StartIE():
-    ie = Env.c32.Dispatch("InternetExplorer.Application")
+    ie = ST.c32.Dispatch("InternetExplorer.Application")
     ie.Visible = True
     return ie
 
 def OpenIE(URL):    
-    ie = Env.c32.Dispatch("InternetExplorer.Application")
+    ie = ST.c32.Dispatch("InternetExplorer.Application")
     ie.Visible = True
     ie.Navigate(URL)
     return ie
     
 def GetIE():
-    ie = Env.c32.Dispatch("InternetExplorer.Application")
+    ie = ST.c32.Dispatch("InternetExplorer.Application")
     return ie
 
 def Navigate(ie, URL):
