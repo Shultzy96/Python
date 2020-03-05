@@ -5,7 +5,7 @@ GUIL = Graphical User Interface Library
 """
 #|--------------- Imports ---------------|
 import sys
-sys.path.append("C:\\Users\shult\Documents\PythonCode")
+sys.path.append("C:\\Users\Documents\PythonCode")
 import ShultzyTools as ST
 #|----------- Working Examples ------------|
 """
