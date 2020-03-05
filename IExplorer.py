@@ -4,7 +4,7 @@ Created on Thu Dec 12 19:11:53 2019 @author: Shultzy
 """
 #|--------------- Imports ---------------|
 import sys
-sys.path.append("C:\\Users\shult\Documents\PythonCode")
+sys.path.append("C:\\Users\Documents\PythonCode")
 import ShultzyTools as ST
 #|--------------- Variables ---------------|
 
