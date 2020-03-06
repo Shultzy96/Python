@@ -7,7 +7,7 @@ ErrorLogList = []
 
 #|--------------- Imports ---------------|
 import sys
-sys.path.append("C:\\Users\shult\Documents\PythonCode")
+sys.path.append("C:\\Users\Documents\PythonCode")
 
 import os
 import win32com.client as c32
