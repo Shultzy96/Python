@@ -9,7 +9,7 @@ It supports UIAutomation for the applications which implmented IUIAutomation, su
 """
 #|--------------- Imports ---------------|
 import sys
-sys.path.append("C:\\Users\shult\Documents\PythonCode")
+sys.path.append("C:\\Users\Documents\PythonCode")
 import ShultzyTools as ST
 #|--------------- Variables ---------------|
 from typing import (Any, Callable, Iterable, Tuple, List, Dict)  # need pip install typing for Python3.4 or lower
