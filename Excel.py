@@ -69,3 +69,12 @@ def ExportXPS(wb, xpsName):
 def GetPath(wb):
     wbPath = wb.Path
     return wbPath
+
+def InsertMacro(wb, strCode):
+    # Macro Example:
+    # sCode = '''sub VBAMacro()
+    #        msgbox "VBA Macro called"
+    #        end sub'''
+    
+    xlmodule = wb.VBProject.VBComponents.Add(1)
+    xlmodule.CodeModule.AddFromString(strCode)
